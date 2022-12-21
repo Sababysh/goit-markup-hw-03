@@ -3,22 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Студія</title>
     <link 
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <!-- navigation -->
     <header>
-        <div class="container">
+        <div class="container" class="header-container"> 
         <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
-        <nav>
+        <nav style="margin-right: auto;">
             <ul class="list nav">
                 <li class="nav-item">
                     <a href="./index.html" class="link current">Студія</a>
@@ -29,7 +30,7 @@
                 <li class="nav-item"><a href="" class="link">Контакти</a></li>
             </ul>
         </nav>
-        <ul class="list contact-head">
+        <ul class="list contacts-head">
             <li class="nav-item">
                 <a href="mailto:info@devstudio.com" class="contact-item">info@devstudio.com</a>
             </li>
@@ -98,27 +99,35 @@
             <h2 class="section-title">Наша команда</h2>
             <ul class="list container">
                 <li class="team-item">
-                    <img src="./images/ig.jpg" alt="Ігор Дем'яненко" width="370" 
+                    <img src="./images/ig.jpg" alt="Ігор Дем'яненко" width="270" height="260" 
                     class="img-contact" />
-                    <h3 class="name">Ігор Дем'яненко </h3>
+                    <div>
+                        <h3 class="name">Ігор Дем'яненко </h3>
                     <p lang="en" class="team-direct">Product Designer</p>
-                </li>
+                    </li>
+                </div>
                 <li class="team-item">
-                    <img src="./images/or.jpg" alt="Ольга Рєпіна" width="370">
-                    <h3 class="name">Ольга Рєпіна</h3>
+                    <img src="./images/or.jpg" alt="Ольга Рєпіна" width="270" height="260" class="img-contact" />
+                    <div>
+                        <h3 class="name">Ольга Рєпіна</h3>
                     <p lang="en" class="team-direct">Frontend Developer</p>
-                </li>
+                    </li>
+                </div>
                 <li class="team-item">
-                    <img src="./images/mt.jpg" alt="Микола Тарасов" width="370">
-                    <h3 class="name">Микола Тарасов</h3>
+                    <img src="./images/mt.jpg" alt="Микола Тарасов" width="270" height="260" class="img-contact" />
+                    <div>
+                        <h3 class="name">Микола Тарасов</h3>
                     <p lang="en" class="team-direct">Marketing</p>
-                </li>
+                    </li>
+                </div>
                 <li class="team-item">
-                    <img src="./images/me.jpg" alt="Михайло Єрмаков" width="370" 
+                    <img src="./images/me.jpg" alt="Михайло Єрмаков" width="270" height="260" 
                     class="img-contact" />
-                    <h3 class="name">Михайло Єрмаков</h3>
+                    <div>
+                        <h3 class="name">Михайло Єрмаков</h3>
                     <p lang="en" class="team-direct">UI Designer</p>
-                </li>
+                    </li>
+                </div>
             </ul>
         </section>
     </main>
