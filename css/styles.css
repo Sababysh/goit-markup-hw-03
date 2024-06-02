@@ -306,6 +306,7 @@ ul, ol {
 /* #region Footer */
 footer {
     background-color: #2e2f42;
+    padding: 100px 0 100px
 }
 
 .logo-footer {
@@ -316,6 +317,8 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-white {
@@ -344,7 +347,6 @@ footer {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 188px;
 }
 
 h1,h2,h3,h4,h5,h6,p {
