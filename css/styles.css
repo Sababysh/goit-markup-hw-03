@@ -263,12 +263,29 @@ button {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-/* .our-team-list {} */
+.our-team-list {
+    padding: 120px 0 120px;
+    display: flex;
+    gap: 24px;
+}
 
 .our-team-item {
     background-color: #FFFFFF;
+    margin-right: 24px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-item:last-child {
+    margin-right: 0;
+}
+
+.team-item {
+    padding: 32px 0 32px;
+
 }
 
 .our-team-subtitle {
@@ -278,6 +295,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .our-team-text {
