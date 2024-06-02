@@ -221,13 +221,17 @@ button {
     padding: 120px 0 120px;
 }
 
+.features-container {
+
+}
+
 .features-list {
     display: flex;
     gap: 24px;
 }
 
 .features-item {
-    margin-right: 24px;
+    /* margin-right: 24px; */
     width: calc((100% - 72px) / 4);
 }
 
