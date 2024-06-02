@@ -11,9 +11,13 @@ body {
 
 .header {
     background-color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-/* .header-nav {} */
+.header-nav {
+    outline: solid violet;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -122,8 +126,14 @@ body {
 
 /* #region Hero Section */
 .hero {
-    background: #2E2F42;
+    padding-bottom: 120px;
 }
+
+.hero-container {
+    background: #2E2F42;
+    padding: 188px 472px 292px 472px;
+}
+
 
 .hero-title {
     font-weight: 700;
@@ -132,6 +142,14 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+button {
+    border: none;
 }
 
 .order-btn {
@@ -142,10 +160,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border-radius: 4px;
+    /* padding: 16px 32px; */
+    width: 169px;
+    height: 56px;
 }
 
 .btn-ground {
     background: #4D5AE5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .btn-ground:hover,
@@ -155,7 +178,7 @@ body {
 /* #endregion Hero Section */
 
 /* #region Section2 Features */
-/* .visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -167,11 +190,13 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-} */
+}
 
-/* .Features {}
+.Features {
+    padding-bottom: 120px;
+}
 
-.features-list {}
+/* .features-list {}
 
 .features-item {} */
 
@@ -195,6 +220,7 @@ body {
 /* #region Our Team Section */
 .our-team {
     background: #F4F4FD;
+    padding-bottom: 120px;
 }
 
 .our-team-title {
@@ -233,7 +259,9 @@ body {
 /* #endregion Our Team Section */
 
 /* #region Section 4 Our Portfolio */
-/* .our-portfolio {} */
+.our-portfolio {
+    padding-bottom: 120px;
+}
 
 .portfolio-title {
     font-weight: 700;
@@ -270,6 +298,8 @@ body {
 /* #region Text Decoration */
 ul, ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 /* #endregion Text Decoration */
 
@@ -306,3 +336,16 @@ footer {
     color: #F4F4FD;
 }
 /* #endregion Footer */
+
+.container {
+    width: 1158px;
+    outline: solid rebeccapurple;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+   margin: 0; 
+}
