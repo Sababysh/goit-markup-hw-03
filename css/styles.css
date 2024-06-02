@@ -126,12 +126,12 @@ body {
 
 /* #region Hero Section */
 .hero {
-    padding-bottom: 188px;
+    padding-bottom: 120px;
 }
 
 .hero-container {
     background: #2E2F42;
-    padding: 188px 472px 292px 472px;
+    padding-bottom: 188px;
 }
 
 
