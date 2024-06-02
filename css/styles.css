@@ -193,13 +193,19 @@ button {
     overflow: hidden;
 }
 
-.Features {
-    padding-bottom: 120px;
+.features {
+    padding: 120px 0 120px;
 }
 
-/* .features-list {}
+.features-list {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
 
-.features-item {} */
+.features-item {
+    margin-right: 24px;
+}
 
 .features-subtitle {
     font-weight: 500;
@@ -207,6 +213,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .features-text {
