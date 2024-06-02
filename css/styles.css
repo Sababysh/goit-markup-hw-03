@@ -126,7 +126,7 @@ body {
 
 /* #region Hero Section */
 .hero {
-    padding-bottom: 120px;
+    padding-bottom: 188px;
 }
 
 .hero-container {
@@ -161,9 +161,10 @@ button {
     letter-spacing: 0.04em;
     cursor: pointer;
     border-radius: 4px;
-    /* padding: 16px 32px; */
     width: 169px;
     height: 56px;
+    display: block;
+    min-width: 169px
 }
 
 .btn-ground {
