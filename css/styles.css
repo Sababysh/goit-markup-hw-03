@@ -6,21 +6,17 @@ body {
     color: #434455 
 }
 
-.container {
-    width: 1158px;
-    outline: solid rebeccapurple;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+button {
+    border: none;
 }
 
 a {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
+ul,
+ol {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -39,6 +35,19 @@ img {
     display: block;
 }
 
+footer {
+    background-color: #2e2f42;
+    padding: 100px 0 100px;
+}
+
+.container {
+    width: 1158px;
+    outline: solid rebeccapurple;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* #region Header */
 
@@ -116,16 +125,9 @@ img {
 .header-nav-link:focus {
     color: #404bbf;
     }
-
- /* a {
-    text-decoration: none;
-     color: currentColor;
-    } */
-
 /* #endregion Header */
 
 /* #region Address */
-
 .head-address {
     font-style: normal;
     margin-left: auto;
@@ -166,32 +168,15 @@ img {
 .contact-link:focus {
     color: #404BBF;
 }
-
 /* #endregion Address */
-
-
-/* .nav-menu {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-} */
-
-/* .nav-item {} */
 
 /* #region Hero Section */
 .hero {
-    /* padding-bottom: 120px; */
     padding: 188px 0 188px;
     background: #2E2F42;
 }
 
-/* .hero-container {
-    
-} */
-
+/* .hero-container {} */
 
 .hero-title {
     font-weight: 700;
@@ -204,10 +189,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-}
-
-button {
-    border: none;
 }
 
 .order-btn {
@@ -246,7 +227,6 @@ button {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -257,9 +237,7 @@ button {
     padding: 120px 0 120px;
 }
 
-/* .features-container {
-
-} */
+/* .features-container {} */
 
 .features-list {
     display: flex;
@@ -307,7 +285,6 @@ button {
 }
 
 .our-team-list {
-    /* padding: 120px 0 120px; */
     display: flex;
     gap: 24px;
 }
@@ -324,7 +301,6 @@ button {
 
 .team-item {
     padding: 32px 0 32px;
-
 }
 
 .our-team-subtitle {
@@ -405,21 +381,7 @@ button {
 }
 /* #endregion Section 4 Our Portfolio */
 
-
-/* #region Text Decoration */
-ul, ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-/* #endregion Text Decoration */
-
 /* #region Footer */
-footer {
-    background-color: #2e2f42;
-    padding: 100px 0 100px
-}
-
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -433,18 +395,10 @@ footer {
 }
 
 .logo-white {
-    /* font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase; */
     color: #f4f4fd;
 }
 
 .footer-paragraph {
-    /* font-weight: 400;
-    font-size: 16px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
